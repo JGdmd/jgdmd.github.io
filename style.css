@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@100&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(217deg, 19%, 24%);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding: 2% 2%;
+  border-radius: 15px;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    width: 90%;
+    height: 350px;
+  }
+}
+
+.advice-card {
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.advice-quote {
+  color: hsl(193deg, 38%, 86%);
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .phone {
+    display: none;
+  }
+}
+
+.dice-button {
+  background-color: hsl(150deg, 100%, 66%);
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -11.5%;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.dice-button:hover {
+  box-shadow: 0px 1px 27px 3px hsl(150deg, 100%, 66%);
+}
+
+/*# sourceMappingURL=style.css.map */
